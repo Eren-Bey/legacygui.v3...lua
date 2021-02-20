@@ -224,6 +224,9 @@ Car.Text = "Car"
 Car.TextColor3 = Color3.fromRGB(255, 255, 255)
 Car.TextSize = 25.000
 Car.TextWrapped = true
+Car.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+end)
 
 UICorner_11.CornerRadius = UDim.new(0, 6)
 UICorner_11.Parent = Car
